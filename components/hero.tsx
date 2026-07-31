@@ -82,14 +82,15 @@ export default function Hero() {
           >
             <Link href="/contact">Start Your Project</Link>
           </Button>
-          <div className="  py-2 flex flex-col items-center">
+        
+          
+        </div>
+          <div className=" mt-5 py-2 flex flex-col items-center">
         <div className="text-xs uppercase  mb-3 text-white/60">Scroll to explore</div>
         <div className="w-6 h-10 border-2 border-white/60 rounded-full flex items-center justify-center">
           <div className="w-1 h-3 bg-white/70 rounded-full animate-bounce" />
         </div>
       </div>
-          
-        </div>
         
       </div>
 
