@@ -52,16 +52,16 @@ export default function Hero() {
   return (
     <section 
       ref={heroRef} 
-      className="relative top-[-110] h-screen flex items-center justify-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
+      className="relative  h-screen  flex flex-col items-center justify-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
     >
-      <div className="absolute inset-0 bg-black/60" />
-      
-      <div ref={textRef} className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-        <h1 className="text-7xl md:text-[5.5rem] leading-none font-serif tracking-tighter mb-6">
+      <div className="absolute inset-0 bg-black/60  " />
+       
+      <div ref={textRef} className="relative   text-center px-6 ">
+        <h1 className="text-5xl md:text-[5.5rem] mb-3 font-serif  ">
           Designing Homes<br />That <span className="text-primary">Feel Alive</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl text-gray-300 mb-5 ">
           Premium interior design that blends luxury, warmth, and modern elegance.
         </p>
 
@@ -71,9 +71,9 @@ export default function Hero() {
             className="bg-primary hover:bg-primary/90 text-black text-lg px-10 py-7 rounded-full"
             
           >
-            <Link href="#projects">Explore Our Work</Link>
+            <Link href="/projects">Explore Our Work</Link>
           </Button>
-
+          
           <Button 
             size="lg" 
             variant="outline" 
@@ -82,15 +82,18 @@ export default function Hero() {
           >
             <Link href="/contact">Start Your Project</Link>
           </Button>
-        </div>
-      </div>
-
-      <div className=" absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center">
-        <div className="text-xs uppercase tracking-widest mb-3 text-white/60">Scroll to explore</div>
+          <div className="  py-2 flex flex-col items-center">
+        <div className="text-xs uppercase  mb-3 text-white/60">Scroll to explore</div>
         <div className="w-6 h-10 border-2 border-white/60 rounded-full flex items-center justify-center">
           <div className="w-1 h-3 bg-white/70 rounded-full animate-bounce" />
         </div>
       </div>
+          
+        </div>
+        
+      </div>
+
+      
     </section>
   );
 }

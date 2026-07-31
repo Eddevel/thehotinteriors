@@ -50,15 +50,15 @@ export default function Navbar() {
   return (
     <>
       <nav className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 
-        ${scrolled ? 'bg-dark/95 backdrop-blur-lg py-4 shadow-2xl' : 'bg-transparent py-6'}`}>
+        ${scrolled ? 'bg-dark/95 backdrop-blur-lg py-2 shadow-2xl' : 'bg-transparent py-2 '}`}>
         
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center relative">
+        <div className="max-w-7xl mx-auto px-2 flex justify-between items-center relative">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image 
               src="/images/logo.png" 
               alt="TheHotInteriors" 
-              width={140} 
+              width={110} 
               height={50} 
               className="object-contain w-auto h-auto" 
               priority
@@ -91,11 +91,11 @@ export default function Navbar() {
           {/* Sidebar */}
           <div 
             ref={sidebarRef}
-            className="fixed py-5 bg-black/96 w-150 h-full bg-dark z-[70] md:hidden "
+            className="fixed  bg-black/96 w-full h-full bg-dark z-[70] md:hidden "
             onClick={closeMenu}
           >
-            <div className="p-10  flex flex-col ">
-              <div className="flex flex-col gap-9 text-3xl font-light">
+            <div className="p-5  flex flex-col ">
+              <div className="flex flex-col gap-2 text-xl font-light">
                 {[
                   { label: "About", href: "/about" },
                   { label: "Projects", href: "/projects" },

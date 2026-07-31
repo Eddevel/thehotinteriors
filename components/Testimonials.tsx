@@ -60,7 +60,7 @@ export default function Testimonials() {
             className="testimonial-card bg-dark-2 border border-white/10 rounded-3xl p-8 flex flex-col"
           >
             <div className="flex-1">
-              <div className="text-6xl text-primary/20 mb-6">“</div>
+              <div className="text-3xl md:text-5xl text-primary/20 mb-6">“</div>
               <p className="text-lg leading-relaxed text-gray-200 italic">
                 {testimonial.quote}
               </p>

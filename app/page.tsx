@@ -17,7 +17,7 @@ export default function Home() {
         <section className="py-24 px-6 bg-dark">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-6xl md:text-7xl font-serif tracking-tight">
+              <h2 className="text-3xl md:text-5xl font-serif tracking-tight">
                 Our Expertise
               </h2>
               <p className="mt-4 text-xl text-gray-400 max-w-2xl mx-auto">
@@ -34,7 +34,7 @@ export default function Home() {
         <section id="projects" className="py-24 px-6">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-6xl md:text-7xl font-serif tracking-tight">
+              <h2 className="text-3xl md:text-5xl font-serif tracking-tight">
                 Featured Projects
               </h2>
               <p className="mt-4 text-xl text-gray-400">
@@ -63,23 +63,23 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div>
-                <h2 className="text-6xl font-serif leading-tight">
+                <h2 className="text-3xl md:text-5xl font-serif leading-tight">
                   Homes that don&apos;t just look good.<br />
                   They <span className="text-primary">feel alive</span>.
                 </h2>
               </div>
               <div className="space-y-8 text-lg text-gray-300">
                 <p>
-                  We believe interior design is more than aesthetics — it&apos;s about creating 
+                  We believe interior design is more than aesthetics  it&apos;s about creating 
                   emotional connections between people and their spaces.
                 </p>
                 <div className="grid grid-cols-2 gap-8 pt-6">
                   <div>
-                    <div className="text-4xl font-serif text-primary">98%</div>
+                    <div className="text-3xl font-serif text-primary">98%</div>
                     <p className="mt-2">Client retention rate</p>
                   </div>
                   <div>
-                    <div className="text-4xl font-serif text-primary">47</div>
+                    <div className="text-3xl font-serif text-primary">47</div>
                     <p className="mt-2">Projects completed globally</p>
                   </div>
                 </div>
@@ -91,10 +91,10 @@ export default function Home() {
 
       {/* Testimonials */}
       <AnimatedSection animationType="fadeUp">
-        <section className="py-24 px-6">
-          <div className="max-w-7xl mx-auto">
+        <section className="py-12 px-6">
+          <div className="">
             <div className="text-center mb-16">
-              <h2 className="text-6xl font-serif">What Our Clients Say</h2>
+              <h2 className="text-3xl md:text-5xl font-serif">What Our Clients Say</h2>
             </div>
             <Testimonials />
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
       <AnimatedSection animationType="fadeUp">
         <section className="py-24 bg-dark-2 border-t border-white/10">
           <div className="max-w-3xl mx-auto text-center px-6">
-            <h2 className="text-5xl font-serif mb-6">
+            <h2 className="text-3xl md:text-5xl font-serif mb-6">
               Let&apos;s design your next chapter
             </h2>
             <p className="text-xl text-gray-400 mb-10">

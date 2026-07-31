@@ -61,15 +61,15 @@ export default function ServicesGrid() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="grid md:grid-cols-2 gap-8">
+    <div ref={sectionRef} className="grid  md:grid-cols-2 gap-8">
       {services.map((service, index) => (
         <div
           key={index}
-          className="service-card group bg-dark-2 border border-white/10 rounded-3xl p-10 hover:border-primary/30 transition-all duration-500 hover:-translate-y-2"
+          className="service-card  group bg-dark-2 border border-white/10 rounded-3xl p-10 hover:border-primary/30 transition-all duration-500 hover:-translate-y-2"
         >
-          <div className="text-5xl mb-8">{service.icon}</div>
+          <div className="text-3xl md:text-4xl mb-8">{service.icon}</div>
           
-          <h3 className="text-4xl font-serif mb-4 group-hover:text-primary transition-colors">
+          <h3 className="text-2xl md:text-3xl font-serif mb-4 group-hover:text-primary transition-colors">
             {service.title}
           </h3>
           
