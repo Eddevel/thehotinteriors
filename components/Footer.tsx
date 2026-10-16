@@ -26,14 +26,14 @@ export default function Footer() {
             <p className="font-medium mb-3">Company</p>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="/contact">Contact</Link></li>
-              <li>Journal</li>
+              <li><Link href="/blog">Journal</Link></li>
             </ul>
           </div>
           <div>
             <p className="font-medium mb-3">Legal</p>
             <ul className="space-y-2 text-gray-400">
-              <li>Privacy</li>
-              <li>Terms</li>
+              <li> <Link href="/privacy">Privacy</Link></li>
+              <li> <Link href="/terms">Terms</Link></li>
             </ul>
           </div>
         </div>
