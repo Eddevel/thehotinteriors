@@ -47,7 +47,7 @@ const projects: Project[] = [
     location: "Lekki Phase 1, Nigeria",
     category: "Modern",
     description: "A warm contemporary family home designed for multigenerational living.",
-    images: ["/images/Home.jpeg"],
+    images: ["/images/home.jpeg"],
     year: "2025"
   },
   {

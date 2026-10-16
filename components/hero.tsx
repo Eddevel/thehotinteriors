@@ -52,7 +52,7 @@ export default function Hero() {
   return (
     <section 
       ref={heroRef} 
-      className="relative py-9 h-screen  flex flex-col items-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
+      className="relative h-screen  flex flex-col items-center justify-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-black/60  " />
        
