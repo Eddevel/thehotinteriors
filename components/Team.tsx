@@ -17,7 +17,7 @@ const teamMembers = [
     name: "Aisha Omeru",
     role: "Design Director",
     bio: "Architect turned interior designer specializing in modern Asian-European fusion.",
-    image: "/images/team1.jpg"
+    image: "/images/team2.jpg"
   },
  
 ];
