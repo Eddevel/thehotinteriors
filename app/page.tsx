@@ -8,14 +8,14 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen w-full ">
       {/* Hero Section */}
       <Hero />
 
       {/* Services Section */}
       <AnimatedSection animationType="fadeUp">
         <section className="py-24 px-6 bg-dark">
-          <div className="max-w-7xl mx-auto">
+          <div className="">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-serif tracking-tight">
                 Our Expertise
@@ -32,7 +32,7 @@ export default function Home() {
       {/* Featured Projects */}
       <AnimatedSection animationType="fadeUp">
         <section id="projects" className="py-24 px-6">
-          <div className="max-w-7xl mx-auto">
+          <div className="">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-serif tracking-tight">
                 Featured Projects
@@ -60,7 +60,7 @@ export default function Home() {
       {/* Why Choose Us */}
       <AnimatedSection animationType="fadeUp">
         <section className="py-24 bg-dark-2">
-          <div className="max-w-6xl mx-auto px-6">
+          <div className="px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center">
               <div>
                 <h2 className="text-3xl md:text-5xl font-serif leading-tight">
@@ -104,7 +104,7 @@ export default function Home() {
       {/* Final CTA */}
       <AnimatedSection animationType="fadeUp">
         <section className="py-24 bg-dark-2 border-t border-white/10">
-          <div className="max-w-3xl mx-auto text-center px-6">
+          <div className="text-center px-6">
             <h2 className="text-3xl md:text-5xl font-serif mb-6">
               Let&apos;s design your next chapter
             </h2>

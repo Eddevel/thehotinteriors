@@ -48,6 +48,7 @@ export default function ContactForm() {
           <SelectItem value="Commercial">Commercial</SelectItem>
           <SelectItem value="Renovation">Renovation</SelectItem>
           <SelectItem value="Consultation">Consultation</SelectItem>
+          <SelectItem value="3D Visualization">3D Visualization</SelectItem>
         </SelectContent>
       </Select>
 

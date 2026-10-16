@@ -1,3 +1,4 @@
+import AboutHero from '@/components/AboutHero';
 import AnimatedSection from '@/components/AnimatedSection';
 import Team from '@/components/Team';
 import Link from 'next/link';
@@ -5,28 +6,9 @@ import { Button } from '@/components/ui/button';
 
 export default function AboutPage() {
   return (
-    <main className="">
-      {/* Hero Section */}
-      
-      <section className="relative top-[-110] h-screen flex items-center justify-center bg-[url('/images/p1.jpeg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-black/65" />
-        <AnimatedSection animationType="fadeUp">
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-7xl font-serif tracking-tighter leading-none mb-6">
-            Our Story
-          </h1>
-          <p className="text-2xl md:text-3xl text-gray-300 max-w-3xl mx-auto">
-            Creating spaces that don&apos;t just look beautiful — they feel truly alive.
-          </p>
-        </div>
-      </AnimatedSection>
-      
-
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 text-white/70 text-sm tracking-widest">
-          SCROLL TO DISCOVER
-        </div>
-        
-      </section>
+    <main>
+      {/* Slideshow Hero */}
+      <AboutHero />
 
       {/* Philosophy Section */}
       <AnimatedSection animationType="fadeUp">
@@ -36,7 +18,7 @@ export default function AboutPage() {
             
             <div className="space-y-10 text-lg leading-relaxed text-gray-300">
               <p>
-                Founded in 2025, HotInteriors was born from a deep belief that a home should be more than just a beautiful space
+                Founded in 2025, HotInteriors was born from a deep belief that a home should be more than just a beautiful space — 
                 it should evoke emotion, warmth, and connection.
               </p>
               
@@ -88,7 +70,7 @@ export default function AboutPage() {
             <h2 className="text-5xl font-serif mb-6">Ready to create something extraordinary?</h2>
             <p className="text-gray-400 mb-10">Let&apos;s discuss your vision.</p>
             
-            <Button  size="lg" className="bg-primary text-black hover:bg-primary/90 px-12 py-7 rounded-full text-lg">
+            <Button size="lg" className="bg-primary text-black hover:bg-primary/90 px-12 py-7 rounded-full text-lg" >
               <Link href="/contact">Start a Conversation</Link>
             </Button>
           </div>

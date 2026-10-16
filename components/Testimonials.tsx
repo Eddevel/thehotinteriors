@@ -42,7 +42,7 @@ export default function Testimonials() {
           stagger: 0.2,
           scrollTrigger: {
             trigger: sliderRef.current,
-            start: "top 75%",
+            start: "top 65%",
           }
         }
       );
@@ -52,7 +52,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <div ref={sliderRef} className="max-w-5xl mx-auto">
+    <div ref={sliderRef} className="">
       <div className="grid md:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
           <div

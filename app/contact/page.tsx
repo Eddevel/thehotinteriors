@@ -33,7 +33,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex gap-4">
                   <Mail className="mt-1 text-primary" />
-                  <div>hello@thehotinteriors.com</div>
+                  <div>thehotinteriors@gmail.com</div>
                 </div>
               </div>
             </div>

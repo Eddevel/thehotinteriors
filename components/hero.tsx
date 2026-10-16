@@ -52,7 +52,7 @@ export default function Hero() {
   return (
     <section 
       ref={heroRef} 
-      className="relative  h-screen  flex flex-col items-center justify-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
+      className="relative py-2 h-screen  flex flex-col items-center overflow-hidden bg-[url('/images/hero-bg.jpg')] bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-black/60  " />
        
@@ -65,10 +65,10 @@ export default function Hero() {
           Premium interior design that blends luxury, warmth, and modern elegance.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-5 justify-center">
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-black text-lg px-10 py-7 rounded-full"
+            className="bg-primary hover:bg-primary/90 text-black text-lg  py-7 rounded-full"
             
           >
             <Link href="/projects">Explore Our Work</Link>
@@ -77,7 +77,7 @@ export default function Hero() {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white/70 hover:bg-white/10 text-lg px-10 py-7 rounded-full"
+            className="border-white/70 hover:bg-white/10 text-lg  py-7 rounded-full"
             
           >
             <Link href="/contact">Start Your Project</Link>
@@ -85,7 +85,7 @@ export default function Hero() {
         
           
         </div>
-          <div className=" mt-5 py-2 flex flex-col items-center">
+          <div className="   py-2 flex flex-col items-center">
         <div className="text-xs uppercase  mb-3 text-white/60">Scroll to explore</div>
         <div className="w-6 h-10 border-2 border-white/60 rounded-full flex items-center justify-center">
           <div className="w-1 h-3 bg-white/70 rounded-full animate-bounce" />

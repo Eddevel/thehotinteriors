@@ -29,7 +29,7 @@ const services = [
     title: "Consultation & Styling",
     description: "Expert guidance for those seeking refined direction and curated finishes.",
     icon: "✨",
-    features: ["Design Consultation", "Material Selection", "Art Curation", "Seasonal Styling"]
+    features: ["Design Consultation", "Material Selection", "Art Curation", "Seasonal Styling", "3D Visualization"]
   }
 ];
 

@@ -117,7 +117,7 @@ export default function Navbar() {
               <div className="mt-auto pt-16 border-t border-white/10 text-sm text-gray-400">
                 <p>Lagos, Nigeria</p>
                 <p>+234-916-337-2102</p>
-                <p>hello@thehotinteriors.com</p>
+                <p>thehotinteriors@gmail.com</p>
                 <div className="mt-10 text-xs text-gray-500">
                   © {new Date().getFullYear()} TheHotInteriors
                 </div>

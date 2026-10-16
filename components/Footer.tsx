@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="bg-dark-2 border-t border-white/10 py-16">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12">
+      <div className="px-6 grid md:grid-cols-3 gap-12">
         <div>
           <h3 className="font-serif text-2xl mb-4">
                     <Image src="/images/logo.png" alt="HotInterior Logo" width={190} height={50} className="object-contain w-auto h-auto" />
