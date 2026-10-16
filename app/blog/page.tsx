@@ -9,7 +9,7 @@ const posts = [
     excerpt: 'How to create serene, inviting spaces without sacrificing personality and warmth.',
     date: 'October 12, 2026',
     readTime: '6 min read',
-    image: '/images/blog1.jpg',
+    image: '/images/blog1.png',
     category: 'Design Philosophy',
   },
   {
@@ -18,7 +18,7 @@ const posts = [
     excerpt: 'From bouclé to travertine — the materials shaping the most beautiful interiors this year.',
     date: 'September 28, 2026',
     readTime: '8 min read',
-    image: '/images/blog2.jpg',
+    image: '/images/blog2.png',
     category: 'Materials',
   },
   {
@@ -27,7 +27,7 @@ const posts = [
     excerpt: 'Layered lighting strategies we use in our most successful residential projects.',
     date: 'September 10, 2026',
     readTime: '7 min read',
-    image: '/images/blog3.jpg',
+    image: '/images/blog3.png',
     category: 'Lighting',
   },
   {
@@ -36,7 +36,7 @@ const posts = [
     excerpt: 'Key principles for creating living spaces that are both sophisticated and deeply inviting.',
     date: 'August 22, 2026',
     readTime: '5 min read',
-    image: '/images/blog4.jpg',
+    image: '/images/blog4.png',
     category: 'Living Spaces',
   },
 ];
