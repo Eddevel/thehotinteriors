@@ -5,9 +5,9 @@ import AnimatedSection from './AnimatedSection';
 
 const slides = [
   '/images/p1.jpeg',
-  '/images/p2.jpeg',   // Add more of your images here
-  '/images/p3.jpeg',
-  '/images/p4.jpeg',
+  '/images/p2.jpg',   // Add more of your images here
+  '/images/p3.jpg',
+  '/images/p4.jpg',
 ];
 
 export default function AboutHero() {
