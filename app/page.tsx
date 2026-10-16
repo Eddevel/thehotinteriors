@@ -1,5 +1,5 @@
 import Hero from '../components/hero';
-import ServicesGrid from '../components/ServicesGrid';
+import ServicesGrid from '../components/HomeServiceGrid';
 import ProjectsGrid from '../components/ProjectsGrid';
 import Testimonials from '../components/Testimonials';
 import AnimatedSection from '../components/AnimatedSection';

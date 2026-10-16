@@ -100,13 +100,7 @@ export default function ServicesGrid() {
             ))}
           </ul>
 
-          <Link 
-            href="/services"
-            className="inline-flex items-center gap-2 text-primary group-hover:gap-3 transition-all text-sm uppercase tracking-widest font-medium"
-          >
-            Learn More 
-            <ArrowRight className="transition-transform group-hover:translate-x-1" size={16} />
-          </Link>
+         
         </div>
       ))}
     </div>
