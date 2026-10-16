@@ -101,7 +101,7 @@ export default function ServicesGrid() {
           </ul>
 
           <Link 
-            href={service.href}
+            href="/services"
             className="inline-flex items-center gap-2 text-primary group-hover:gap-3 transition-all text-sm uppercase tracking-widest font-medium"
           >
             Learn More 
