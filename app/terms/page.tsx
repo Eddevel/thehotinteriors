@@ -1,4 +1,5 @@
 import AnimatedSection from '@/components/AnimatedSection';
+import Link from 'next/link';
 
 export default function TermsPage() {
   return (
@@ -73,9 +74,9 @@ export default function TermsPage() {
               <h2 className="text-2xl font-serif text-white mb-4">8. Contact Information</h2>
               <p>
                 For any questions regarding these Terms, please contact us at{' '}
-                <a href="mailto:hello@thehotinteriors.com" className="text-primary hover:underline">
-                  hello@thehotinteriors.com
-                </a>.
+                <Link href="mailto:thehotinteriors@gmail.com" className="text-primary hover:underline">
+                  thehotinteriors@gmail.com
+                </Link>.
               </p>
             </section>
           </div>

@@ -1,4 +1,5 @@
 import AnimatedSection from '@/components/AnimatedSection';
+import { Link } from 'lucide-react';
 
 export default function PrivacyPage() {
   return (
@@ -60,9 +61,9 @@ export default function PrivacyPage() {
               <p>
                 Depending on your location, you may have the right to access, correct, or delete your personal data. 
                 To exercise these rights, please contact us at{' '}
-                <a href="mailto:hello@thehotinteriors.com" className="text-primary hover:underline">
-                  hello@thehotinteriors.com
-                </a>.
+                <Link href="mailto:thehotinteriors@gmail.com" className="text-primary hover:underline">
+                  thehotinteriors@gmail.com
+                </Link>.
               </p>
             </section>
 
@@ -71,7 +72,7 @@ export default function PrivacyPage() {
               <p>
                 If you have any questions about this Privacy Policy, please reach out to us at{' '}
                 <a href="mailto:hello@thehotinteriors.com" className="text-primary hover:underline">
-                  hello@thehotinteriors.com
+                  thehotinteriors@gmail.com
                 </a>{' '}
                 or through our contact form.
               </p>
