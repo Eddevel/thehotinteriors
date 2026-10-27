@@ -7,7 +7,7 @@ const nextConfig = {
         hostname: '**', // Allow all external images (you can restrict later)
       },
     ],
-    domains: ['localhost'],
+    domains: ['localhost', 'thehotinteriors.com'], // Add your domain here
   },
 
   // Performance & SEO optimizations
@@ -20,8 +20,6 @@ const nextConfig = {
     optimizePackageImports: ['lodash', 'gsap', 'lucide-react'],
   },
 
-  // Metadata base for Open Graph images
-  metadataBase: new URL('https://thehotinteriors.com'), // Change to your real domain later
 
   // Headers for better security and performance
   async headers() {
